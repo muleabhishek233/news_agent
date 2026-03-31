@@ -1,10 +1,3 @@
-"""
-main.py
-
-Programmatic entry point — runs the agent without the ADK CLI.
-Uses Runner + InMemorySessionService, mirrors what `adk run` does internally.
-"""
-
 import asyncio
 from google.adk.runners import Runner
 from google.adk.sessions import InMemorySessionService
