@@ -13,7 +13,7 @@ _SERVER = os.path.join(os.path.dirname(__file__), "news_mcp_server.py")
 
 root_agent = Agent(
     name="news_briefing_agent",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     description="Fetches live news headlines via MCP and produces structured briefings.",
     instruction="""
 You are a news intelligence agent. Your only data source is the `get_news` MCP tool — never fabricate headlines.
